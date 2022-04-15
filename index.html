@@ -1,0 +1,828 @@
+
+<!DOCTYPE html>
+
+<!-- MADE ON HTTPS://CREATIUM.IO -->
+
+<html>
+<head>
+
+    <!-- PLUGINS -->
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta charset="utf-8">
+    <meta name="generator" content="Creatium">
+
+    <title>Первый</title>
+
+    
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    
+<!--[if IE]><link rel="shortcut icon" href="https://i.1.creatium.io/16/66/12/45c5c460a8bffc6b405443cdeba761693e/32x32/favicon.png"><![endif]-->
+<link rel="apple-touch-icon-precomposed" href="https://i.1.creatium.io/16/66/12/45c5c460a8bffc6b405443cdeba761693e/180x180/favicon.png">
+<link rel="icon" href="https://i.1.creatium.io/16/66/12/45c5c460a8bffc6b405443cdeba761693e/196x196/favicon.png">
+                <script>
+                window.creatium = {"creatium":true,"visit_id":null,"site_id":126558,"page_id":799147,"content_id":779499,"lang":"ru","time":1649985317,"screens":"screens-xs-md-lg","animations":[],"cookies":{"alert":0,"message":""},"integrations":[],"variables":{"system-year":{"id":"system-year","type":"string","name":"\u0422\u0435\u043a\u0443\u0449\u0438\u0439 \u0433\u043e\u0434","value":"2022"},"system-month":{"id":"system-month","type":"string","name":"\u0422\u0435\u043a\u0443\u0449\u0438\u0439 \u043c\u0435\u0441\u044f\u0446 (01-12)","value":"04"},"system-day":{"id":"system-day","type":"string","name":"\u0422\u0435\u043a\u0443\u0449\u0438\u0439 \u0434\u0435\u043d\u044c \u043c\u0435\u0441\u044f\u0446\u0430 (01-31)","value":"15"},"system-domain":{"id":"system-domain","type":"string","name":"\u0410\u0434\u0440\u0435\u0441 \u0441\u0430\u0439\u0442\u0430","value":"31ba7e.creatium.site"},"system-timestamp-iso8601":{"id":"system-timestamp-iso8601","type":"string","name":"\u041c\u0435\u0442\u043a\u0430 \u0432\u0440\u0435\u043c\u0435\u043d\u0438 (\u0441\u0442\u0440\u043e\u043a\u0430)","value":"2022-04-15T01:15:17+0000"},"system-timestamp-unix":{"id":"system-timestamp-unix","type":"number","name":"\u041c\u0435\u0442\u043a\u0430 \u0432\u0440\u0435\u043c\u0435\u043d\u0438 (\u0447\u0438\u0441\u043b\u043e)","value":1649985317}},"miscellaneous":{"cbr":[]},"misc":{"cbr":[],"cdn_host":"i.1.creatium.io"},"allow_cookies":true,"site_options":{"captcha_signup":false,"captcha_orders":false,"member_allow_signup":false,"member_allow_auth":false},"member":null,"async":{"js":["\/assets\/4.1\/vendors-async.js?v=1649864402"],"css":["\/assets\/4.1\/vendors-async.css?v=1649864402"],"js_adaptive_sections":"\/app\/4.1\/adaptive-sections\/?path="},"device":"other","scroll":{"snapping":false}};
+                window.cr = window.creatium;
+                window.plp = window.creatium;
+                window.error_handler = function (e, fn_id) {
+                    window.console && console.log && console.log(fn_id);
+                    window['error_handler_' + fn_id] && eval(window['error_handler_' + fn_id]);
+                    window.console && console.error && console.error(e.message);
+                };
+                    cr.api = function (v, cb) { cr.api.queue.push([v, cb]) };
+    cr.api.queue = [];
+    cr.layout = {"top":0,"left":0};
+            </script>
+    <!-- CORE -->
+    <link type="text/css" rel="stylesheet" 
+                            href="/assets/4.1/vendors.css?v=1649864402"><link type="text/css" rel="stylesheet" 
+                            href="/assets/4.1/default.css?v=1649864402"><link type="text/css" rel="stylesheet" 
+                            href="/assets/4.1/nodes.css?v=1649864402">    <script defer type="text/javascript" 
+                            src="/assets/4.1/vendors.js?v=1649864402"></script><script defer type="text/javascript" 
+                            src="/assets/4.1/default.js?v=1649864402"></script><script defer type="text/javascript" 
+                            src="/assets/4.1/nodes.js?v=1649864402"></script><link rel="preload" 
+                            href="/assets/4.1/vendors-sync.js?v=1649864402" as="script">
+            <style> 
+.node.css1 > .wrapper1 { background-color: white }
+.node.css1  { color: #333 }
+.node.css1  > .padding_top { padding-top: 18px }
+.node.css1  > .padding_bottom { padding-bottom: 18px }
+.node.css1 a { color: rgb(25, 100, 230) }
+.node.css2  { color: #333; padding-top: 5px; padding-bottom: 5px; padding-left: 5px; padding-right: 5px }
+.node.css2 a { color: rgb(25, 100, 230) }
+.textable.css3  { text-align: left; font-family: "Open Sans"; font-size: 22px; line-height: 1.4; letter-spacing: 0em; opacity: 1 }
+.screen-xs .textable.css3  { text-align: center!important }
+.btn.css4 { text-align: center } .btn.css4 { background-color: rgba(14, 126, 227, 0);border-top-left-radius: 15px;border-top-right-radius: 15px;border-bottom-right-radius: 15px;border-bottom-left-radius: 15px;border-style: solid;border-top-width: 0px;border-bottom-width: 0px;border-left-width: 0px;border-right-width: 0px;border-color: rgb(138, 138, 138);padding-top: 6px;padding-bottom: 6px;font-size: 14px;color: rgb(138, 138, 138)!important; } .btn.css4:hover, .btn.css4.hover { background-color: rgba(14, 126, 227, 0);border-color: rgb(138, 138, 138);color: rgb(22, 102, 241)!important; } .btn.css4:active, .btn.css4.active { background-color: rgba(12, 113, 204, 0);border-color: rgb(138, 138, 138);color: rgb(12, 80, 198)!important; } .btn.css4:before {  } .btn.css4:active:before, .btn.css4.active:before { background-color: rgba(12, 113, 204, 0); }
+.btn.css5 { text-align: center } .btn.css5 { background-color: rgb(242, 242, 242);border-top-left-radius: 5px;border-top-right-radius: 5px;border-bottom-right-radius: 5px;border-bottom-left-radius: 5px;border-style: solid;border-top-width: 1px;border-bottom-width: 1px;border-left-width: 1px;border-right-width: 1px;border-color: rgb(242, 242, 242);padding-top: 13px;padding-bottom: 13px;font-size: 14px;color: rgb(0, 0, 0)!important; } .btn.css5:hover, .btn.css5.hover { background-color: rgb(218, 218, 218);border-color: rgb(218, 218, 218);color: rgb(0, 0, 0)!important; } .btn.css5:active, .btn.css5.active { background-color: rgb(218, 218, 218);border-color: rgb(174, 174, 174);color: rgb(0, 0, 0)!important; } .btn.css5:before {  } .btn.css5:active:before, .btn.css5.active:before { background-color: rgb(218, 218, 218); }
+.modal.css6 .modal-dialog { width: 460px }
+.metahtml.css7 .modal1-root {
+  border-radius: 10px;
+  box-shadow: 0 3px 9px rgba(0, 0, 0, 0.5);
+  opacity: 0;
+  transform: scale(1.1);
+  transition: 300ms all ease-in;
+}
+
+.metahtml.css7 .modal1-root.is-active {
+  opacity: 1;
+  transform: scale(1);
+}
+
+.metahtml.css7 .modal1-root.is-hiding {
+  opacity: 0;
+  transform: scale(0.9);
+}
+
+.metahtml.css7 .modal1-panel {
+  padding: 15px;
+  border-radius: 10px;
+  background-color: rgb(250, 250, 250);
+}
+
+.metahtml.css7 .modal1-divider {
+  margin-top: 10px;
+  height: 1px;
+  background-color: rgba(0, 0, 0, 0.05);
+  margin-bottom: 10px;
+}
+
+.metahtml.css7 .modal1-close {
+  cursor: pointer;
+  background-color: white;
+  border: 2px solid black;
+  border-radius: 100px;
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  padding: 0;
+  top: -10px;
+  right: -10px;
+  transition: transform 200ms;
+}
+
+.metahtml.css7 .modal1-close-h,
+.metahtml.css7 .modal1-close-v {
+  background-color: black;
+  display: block;
+  width: 16px;
+  height: 2px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+}
+
+.metahtml.css7 .modal1-close-h {
+  transform: translate(-50%, -50%) rotate(135deg);
+}
+
+.metahtml.css7 .modal1-close-v {
+  transform: translate(-50%, -50%) rotate(45deg);
+}
+
+.metahtml.css7 .modal1-close:hover {
+  transform: scale(1.1);
+}
+.textable.css8  { text-align: center; font-family: "TTNorms Medium"; font-size: 28px; line-height: 1.1; letter-spacing: 0.028571428571428574em; opacity: 1 }
+.screen-xs .textable.css8  { text-align: center!important }
+.textable.css9  { text-align: center; font-family: "Open Sans"; font-size: 16px; line-height: 1.4; letter-spacing: 0em; opacity: 0.65 }
+.screen-xs .textable.css9  { text-align: center!important }
+.metahtml.css10 .form1-cover {
+  padding: 5px 10px;
+  background-color: transparent;
+  border-color: rgb(22, 102, 241);
+  border-style: none;
+  border-width: 2px;
+  border-radius: 5px;
+  box-shadow: 0 0px 0px 0px rgba(0, 0, 0, 0.1);
+}
+.node.css11  { color: #333; padding-top: 5px; padding-bottom: 5px; padding-left: 10px; padding-right: 10px }
+.node.css11 a { color: rgb(25, 100, 230) }
+.metahtml.css12 [cr-field] {
+  padding-bottom: 14px;
+  font-size: 14px;
+  font-family: Open Sans;
+}
+
+.metahtml.css12 .name {
+  font-weight: normal;
+  font-family: Open Sans;
+  opacity: 0.8;
+  margin-bottom: 6.5px;
+  font-size: 13px;
+  word-wrap: break-word;
+  text-transform: normal;
+  letter-spacing: none;
+}
+
+.metahtml.css12 .form-control {
+  height: auto;
+  line-height: 1.2;
+  box-shadow: none;
+  position: relative;
+  background-color: rgb(245, 245, 245);
+  color: rgba(0, 0, 0, 0.5);
+  border: 1px none rgba(0, 0, 0, 0.25);
+  border-radius: 5px;
+  padding: 12px 9.6px;
+  font-size: 14px;
+  cursor: initial;
+}
+
+.metahtml.css12 .form-control:focus,
+.metahtml.css12 .form-control:focus-within {
+  border-color: rgb(22, 102, 241);
+  background-color: rgb(242, 242, 242);
+}
+
+.metahtml.css12 .form-control + .form-control {
+  margin-top: 10px;
+}
+
+.metahtml.css12 label {
+  font-weight: normal;
+  display: block;
+  cursor: pointer;
+}
+
+.metahtml.css12 textarea {
+  resize: vertical;
+}
+
+.metahtml.css12 .checkbox {
+  width: 22px;
+  height: 22px;
+  padding: 0;
+  margin: 0 5.5px 0 0;
+  line-height: 0;
+  min-height: auto;
+  display: inline-block;
+  vertical-align: middle;
+  background: white;
+  border: 2px solid rgba(0, 0, 0, 0.25);
+  position: relative;
+  transition: 300ms all;
+  border-radius: 2px;
+}
+
+.metahtml.css12 .checkbox svg {
+  width: 100%;
+  opacity: 0;
+  transform: scale(0);
+  transition: 300ms all;
+}
+
+.metahtml.css12 input:hover ~ .checkbox,
+.metahtml.css12 input:focus ~ .checkbox {
+  border-color: rgb(138, 179, 248);
+}
+
+.metahtml.css12 input:checked ~ .checkbox {
+  border-color: rgb(13, 90, 223);
+  background-color: rgb(22, 102, 241);
+}
+
+.metahtml.css12 input:active ~ .checkbox {
+  box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.15);
+}
+
+.metahtml.css12 input:checked ~ .checkbox svg {
+  opacity: 1;
+  transform: scale(1);
+}
+
+.metahtml.css12 .radio {
+  margin: 0;
+  margin: 0 5.5px 0 0;
+  padding: 0;
+  line-height: 0;
+  width: 22px;
+  height: 22px;
+  min-height: auto;
+  display: inline-block;
+  vertical-align: middle;
+  background: white;
+  border: 2px solid rgba(0, 0, 0, 0.25);
+  position: relative;
+  transition: 300ms all;
+  border-radius: 100px;
+}
+
+.metahtml.css12 .radio:before {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  top: 0;
+  height: 100%;
+  content: '';
+  display: block;
+  background-color: white;
+  border-radius: 100px;
+  opacity: 0;
+  transform: scale(0);
+  transition: 300ms all;
+}
+
+.metahtml.css12 input:hover ~ .radio,
+.metahtml.css12 input:focus ~ .radio {
+  border-color: rgb(138, 179, 248);
+}
+
+.metahtml.css12 input:active ~ .radio {
+  box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.15);
+}
+
+.metahtml.css12 input:checked ~ .radio {
+  border-color: rgb(13, 90, 223);
+  background-color: rgb(22, 102, 241);
+}
+
+.metahtml.css12 input:checked ~ .radio:before {
+  opacity: 1;
+  transform: scale(0.5);
+}
+
+.metahtml.css12 [cr-field="checkbox-list"] span {
+  vertical-align: middle;
+}
+
+.metahtml.css12 [cr-field="checkbox-list"] input {
+  position: absolute;
+  width: 0;
+  height: 0;
+  opacity: 0;
+  overflow: hidden;
+}
+
+.metahtml.css12 [cr-field="checkbox-list"] label + label {
+  margin-top: 7.333333333333333px;
+}
+
+.metahtml.css12 [cr-field="checkbox-visual"] {
+  overflow: hidden;
+}
+
+.metahtml.css12 [cr-field="checkbox-visual"] .items {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: -20px;
+  justify-content: space-between;
+}
+
+.metahtml.css12 [cr-field="checkbox-visual"] .item {
+  display: inline-block;
+  vertical-align: top;
+  text-align: center;
+  margin-bottom: 20px;
+  width: 30%;
+}
+
+.metahtml.css12 [cr-field="checkbox-visual"] label {
+  position: relative;
+}
+
+.metahtml.css12 [cr-field="checkbox-visual"] .bgimage {
+  background-size: cover;
+  display: inline-block;
+  background-position: center;
+  border-radius: 50px;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+  padding-top: 100%;
+}
+
+.metahtml.css12 [cr-field="checkbox-visual"] input {
+  position: absolute;
+  width: 0;
+  height: 0;
+  opacity: 0;
+}
+
+.metahtml.css12 [cr-field="checkbox-visual"] .tick {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(22, 102, 241, 0.75);
+  transition: all 300ms;
+  opacity: 0;
+}
+
+.metahtml.css12 [cr-field="checkbox-visual"] .tick svg {
+  opacity: 0;
+  transition: all 300ms;
+  max-width: 26px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.metahtml.css12 [cr-field="checkbox-visual"] .subname {
+  margin: 7px 0;
+  word-wrap: break-word;
+  white-space: normal;
+}
+
+.metahtml.css12 [cr-field="checkbox-visual"] input:hover ~ .bgimage .tick,
+.metahtml.css12 [cr-field="checkbox-visual"] input:focus ~ .bgimage .tick {
+  opacity: 0.5;
+}
+
+.metahtml.css12 [cr-field="checkbox-visual"] input:checked ~ .bgimage .tick,
+.metahtml.css12 [cr-field="checkbox-visual"] input:checked ~ .bgimage .tick svg {
+  opacity: 1;
+}
+
+.screen-xs .metahtml.css12 [cr-field="checkbox-visual"] .item {
+  width: 100%;
+  text-align: left;
+  margin-bottom: 10px;
+  white-space: nowrap;
+}
+
+.screen-xs .metahtml.css12 [cr-field="checkbox-visual"] .bgimage {
+  width: 25%;
+  padding-top: 25%;
+  vertical-align: middle;
+}
+
+.screen-xs .metahtml.css12 [cr-field="checkbox-visual"] .subname {
+  width: 75%;
+  display: inline-block;
+  vertical-align: middle;
+  padding-left: 5%;
+  margin-left: -4px;
+}
+
+.metahtml.css12 [cr-field="checkbox-input"] span {
+  vertical-align: middle;
+}
+
+.metahtml.css12 [cr-field="checkbox-input"] input {
+  position: absolute;
+  width: 0;
+  height: 0;
+  opacity: 0;
+  overflow: hidden;
+}
+
+.metahtml.css12 [cr-field="radio-list"] span {
+  vertical-align: middle;
+}
+
+.metahtml.css12 [cr-field="radio-list"] input {
+  position: absolute;
+  width: 0;
+  height: 0;
+  opacity: 0;
+  overflow: hidden;
+}
+
+.metahtml.css12 [cr-field="radio-list"] label + label {
+  margin-top: 7.333333333333333px;
+}
+
+.metahtml.css12 [cr-field="radio-visual"] {
+  overflow: hidden;
+}
+
+.metahtml.css12 [cr-field="radio-visual"] .items {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: -20px;
+  justify-content: space-between;
+}
+
+.metahtml.css12 [cr-field="radio-visual"] .item {
+  display: inline-block;
+  vertical-align: top;
+  text-align: center;
+  margin-bottom: 20px;
+  width: 30%;
+}
+
+.metahtml.css12 [cr-field="radio-visual"] label {
+  position: relative;
+}
+
+.metahtml.css12 [cr-field="radio-visual"] .bgimage {
+  background-size: cover;
+  display: inline-block;
+  background-position: center;
+  border-radius: 50px;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+  padding-top: 100%;
+}
+
+.metahtml.css12 [cr-field="radio-visual"] input {
+  position: absolute;
+  width: 0;
+  height: 0;
+  opacity: 0;
+}
+
+.metahtml.css12 [cr-field="radio-visual"] .tick {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(22, 102, 241, 0.75);
+  transition: all 300ms;
+  opacity: 0;
+}
+
+.metahtml.css12 [cr-field="radio-visual"] .tick svg {
+  opacity: 0;
+  transition: all 300ms;
+  max-width: 26px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.metahtml.css12 [cr-field="radio-visual"] .subname {
+  margin: 7px 0;
+  word-wrap: break-word;
+  white-space: normal;
+}
+
+.metahtml.css12 [cr-field="radio-visual"] input:hover ~ .bgimage .tick {
+  opacity: 0.5;
+}
+
+.metahtml.css12 [cr-field="radio-visual"] input:checked ~ .bgimage .tick,
+.metahtml.css12 [cr-field="radio-visual"] input:checked ~ .bgimage .tick svg {
+  opacity: 1;
+}
+
+.screen-xs .metahtml.css12 [cr-field="radio-visual"] .item {
+  width: 100%;
+  text-align: left;
+  margin-bottom: 10px;
+  white-space: nowrap;
+}
+
+.screen-xs .metahtml.css12 [cr-field="radio-visual"] .bgimage {
+  width: 25%;
+  padding-top: 25%;
+  vertical-align: middle;
+}
+
+.screen-xs .metahtml.css12 [cr-field="radio-visual"] .subname {
+  width: 75%;
+  display: inline-block;
+  vertical-align: middle;
+  padding-left: 5%;
+  margin-left: -4px;
+}
+
+.metahtml.css12 [cr-field="select-menu"] select {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  cursor: pointer;
+  z-index: 1;
+  color: black;
+  -webkit-appearance: none;
+}
+
+.metahtml.css12 [cr-field="select-menu"] .fa {
+  font-size: 20px;
+  line-height: 0;
+  opacity: 0.5;
+  vertical-align: middle;
+}
+
+.metahtml.css12 [cr-field="select-menu"] .flexgrid {
+  display: flex;
+  align-items: center;
+}
+
+.metahtml.css12 [cr-field="select-menu"] .flexgrid .left {
+  flex-grow: 1;
+  min-width: 50%;
+  word-wrap: break-word;
+}
+
+.metahtml.css12 [cr-field="file"] svg {
+  width: 20px;
+  height: 20px;
+  vertical-align: middle;
+  margin-top: -5px;
+  margin-bottom: -5px;
+}
+
+.metahtml.css12 [cr-field="file"] span {
+  display: inline-block;
+  vertical-align: middle;
+  line-height: 1;
+}
+
+.metahtml.css12 [cr-field="file"] input {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  cursor: pointer;
+  z-index: 0;
+}
+
+.metahtml.css12 [cr-field="file"] .clean {
+  float: right;
+  opacity: 0.5;
+  cursor: pointer;
+  position: relative;
+  z-index: 1;
+}
+
+.metahtml.css12 [cr-field="file"] .clean:hover {
+  opacity: 1;
+}
+
+.metahtml.css12 [cr-field="file"] .flexgrid {
+  display: flex;
+  align-items: center;
+}
+
+.metahtml.css12 [cr-field="file"] .flexgrid .center {
+  flex-grow: 1;
+  min-width: 50%;
+  word-wrap: break-word;
+}
+
+.metahtml.css12 [cr-field="result"] .flexgrid.align-sides {
+  display: flex;
+  align-items: center;
+}
+
+.metahtml.css12 [cr-field="result"] .flexgrid.align-sides .left .name {
+  margin-bottom: 0;
+}
+
+.metahtml.css12 [cr-field="result"] .flexgrid.align-center .left {
+  text-align: center;
+}
+
+.metahtml.css12 [cr-field="result"] .flexgrid.align-right .left {
+  text-align: right;
+}
+
+.metahtml.css12 [cr-field="result"] .flexgrid .right {
+  flex-grow: 1;
+  min-width: 25%;
+  word-wrap: break-word;
+  text-align: right;
+  font-size: 120%;
+}
+
+.metahtml.css12 [cr-field="result"] .flexgrid.align-left .right {
+  text-align: left;
+}
+
+.metahtml.css12 [cr-field="result"] .flexgrid.align-center .right {
+  text-align: center;
+}
+
+.metahtml.css12 [cr-field="result"] .flexgrid.align-right .right {
+  text-align: right;
+}
+
+.metahtml.css12 [cr-field="privacy-button"] .open {
+  text-align: center;
+  opacity: 0.5;
+  font-size: 80%;
+  cursor: pointer;
+}
+
+.metahtml.css12 [cr-field="privacy-button"] .open a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.metahtml.css12 [cr-field="privacy-checkbox"] {
+  font-size: 80%;
+}
+
+.metahtml.css12 [cr-field="privacy-checkbox"] span {
+  vertical-align: middle;
+}
+
+.metahtml.css12 [cr-field="privacy-checkbox"] a {
+  vertical-align: middle;
+  text-decoration: none;
+  border-bottom-width: 1px;
+  border-bottom-style: dashed;
+  color: inherit;
+  cursor: pointer;
+}
+
+.metahtml.css12 [cr-field="privacy-checkbox"] input {
+  position: absolute;
+  width: 0;
+  height: 0;
+  opacity: 0;
+  overflow: hidden;
+}
+
+.metahtml.css12 [cr-field="privacy-text"] {
+  font-size: 80%;
+  text-align: center;
+}
+
+.metahtml.css12 [cr-field="privacy-text"] a {
+  text-decoration: none;
+  border-bottom-width: 1px;
+  border-bottom-style: dashed;
+  color: inherit;
+  cursor: pointer;
+}
+
+.metahtml.css12 [cr-field="hidden"] {
+  opacity: 0.25;
+}
+.btn.css13 { text-align: center } .btn.css13 { background-color: rgb(22, 102, 241);border-top-left-radius: 5px;border-top-right-radius: 5px;border-bottom-right-radius: 5px;border-bottom-left-radius: 5px;border-style: solid;border-top-width: 0px;border-bottom-width: 0px;border-left-width: 0px;border-right-width: 0px;border-color: rgb(12, 80, 198);padding-top: 14px;padding-bottom: 14px;font-size: 16px;color: rgb(255, 255, 255)!important;box-shadow: 0px 5px 15px 0px rgba(22, 102, 241, 0.4); } .btn.css13:hover, .btn.css13.hover { background-color: rgb(13, 90, 223);border-color: rgb(10, 64, 159);color: rgb(255, 255, 255)!important; } .btn.css13:active, .btn.css13.active { background-color: rgb(12, 81, 201);border-color: rgb(11, 72, 179);color: rgb(255, 255, 255)!important;box-shadow: inset 0px 5px 15px 0px rgba(22, 102, 241, 0.4); } .btn.css13:before {  } .btn.css13:active:before, .btn.css13.active:before { background-color: rgb(12, 81, 201);box-shadow: inset 0px 5px 15px 0px rgba(22, 102, 241, 0.4); }
+.node.css14 > .wrapper1 { background-color: rgb(247, 247, 247) }
+.node.css14  { color: #333 }
+.node.css14  > .padding_top { padding-top: 60px }
+.node.css14  > .padding_bottom { padding-bottom: 90px }
+.node.css14 a { color: rgb(25, 100, 230) }
+.textable.css15  { text-align: center; font-family: "TTNorms Medium"; font-size: 48px; line-height: 1.1; letter-spacing: 0em; opacity: 1 }
+.screen-xs .textable.css15  { text-align: center!important; font-size: 38px!important }
+.node.css16  { color: #333; padding-top: 25px; padding-bottom: 50px; padding-left: 5px; padding-right: 5px }
+.node.css16 a { color: rgb(25, 100, 230) }
+.textable.css17  { text-align: center; font-family: "Open Sans"; font-size: 16px; line-height: 1.4; letter-spacing: 0em; opacity: 0.5 }
+.screen-xs .textable.css17  { text-align: center!important }
+.area.screen-lg { min-width: 1200px; }.area.screen-lg .container { width: 1140px; }.area.screen-lg .container.soft { max-width: 1140px; }.area.screen-md { min-width: 960px; }.area.screen-md .container { width: 940px; }.area.screen-md .container.soft { max-width: 940px; }.area.screen-sm { min-width: 720px; }.area.screen-sm .container { width: 720px; }.area.screen-sm .container.soft { max-width: 720px; }.area.screen-xs .container { max-width: 737px; padding: 0 15px; }
+ </style>
+    
+    
+    <!-- PLUGINS -->
+    
+    
+    <!-- proxy-module cut-head -->
+</head>
+
+<body class="area font-text-opensans font-header-ttnormsmedium">
+<div class="area-wrapper">
+<!-- PLUGINS -->
+
+<!-- HTML -->
+<script>
+            creatium.getWindowWidth = function () {
+                var windowWidth = window.innerWidth;
+
+                
+                if (window.innerWidth === 980 && !window.MSStream && /iPhone|iPod/.test(navigator.userAgent)) {
+                    windowWidth = window.outerWidth;
+                }
+                
+                return windowWidth;
+            }
+        
+            creatium.getScreen = function () {
+                var _windowWidth = creatium.getWindowWidth();
+
+                var lgWidth = 1200 + cr.layout._left_current;
+                var mdWidth = 992 + cr.layout._left_current;
+                var smWidth = 768 + cr.layout._left_current;
+
+                if (creatium.screens === 'screens-xs') return 'xs';
+                else if (creatium.screens === 'screens-sm') return 'sm';
+                else if (creatium.screens === 'screens-md') return 'md';
+                else if (creatium.screens === 'screens-lg') return 'lg';
+                else if (creatium.screens === 'screens-xs-sm') {
+                    if (_windowWidth >= smWidth) return 'sm';
+                    else return 'xs';
+                } else if (creatium.screens === 'screens-xs-md') {
+                    if (_windowWidth >= mdWidth) return 'md';
+                    else return 'xs';
+                } else if (creatium.screens === 'screens-xs-lg') {
+                    if (_windowWidth >= lgWidth) return 'lg';
+                    else return 'xs';
+                } else if (creatium.screens === 'screens-sm-md') {
+                    if (_windowWidth >= mdWidth) return 'md';
+                    else return 'sm';
+                } else if (creatium.screens === 'screens-sm-lg') {
+                    if (_windowWidth >= lgWidth) return 'lg';
+                    else return 'sm';
+                } else if (creatium.screens === 'screens-md-lg') {
+                    if (_windowWidth >= lgWidth) return 'lg';
+                    else return 'md';
+                } else if (creatium.screens === 'screens-xs-sm-md') {
+                    if (_windowWidth >= mdWidth) return 'md';
+                    else if (_windowWidth >= smWidth && _windowWidth < mdWidth) return 'sm';
+                    else return 'xs';
+                } else if (creatium.screens === 'screens-xs-sm-lg') {
+                    if (_windowWidth >= lgWidth) return 'lg';
+                    else if (_windowWidth >= smWidth && _windowWidth < lgWidth) return 'sm';
+                    else return 'xs';
+                } else if (creatium.screens === 'screens-xs-md-lg') {
+                    if (_windowWidth >= lgWidth) return 'lg';
+                    else if (_windowWidth >= mdWidth && _windowWidth < lgWidth) return 'md';
+                    else return 'xs';
+                } else if (creatium.screens === 'screens-sm-md-lg') {
+                    if (_windowWidth >= lgWidth) return 'lg';
+                    else if (_windowWidth >= mdWidth && _windowWidth < lgWidth) return 'md';
+                    else return 'sm';
+                } else if (creatium.screens === 'screens-xs-sm-md-lg') {
+                    if (_windowWidth >= lgWidth) return 'lg';
+                    else if (_windowWidth >= mdWidth && _windowWidth < lgWidth) return 'md';
+                    else if (_windowWidth >= smWidth && _windowWidth < mdWidth) return 'sm';
+                    else return 'xs';
+                }
+            }
+            
+            creatium.isLayoutMobile = function () {
+                if (creatium.getScreen() !== 'xs') return false;
+                return creatium.getWindowWidth() < 320 + cr.layout.left;
+            }
+
+            cr.layout._left_current = cr.layout.left;
+            if (cr.layout._left_current) {
+                document.body.classList.add('layout-left-active');
+            }
+
+            creatium.layout.mobile = creatium.isLayoutMobile();
+            if (creatium.layout.mobile) {
+                document.body.classList.add('layout-mobile');
+            }
+
+            creatium.screen = creatium.getScreen();
+            document.body.classList.add('screen-' + creatium.screen);
+
+            if (creatium.device) {
+                creatium.device_fix = false;
+                if (creatium.screen === 'xs' && creatium.device !== 'mobile') creatium.device_fix = true;
+                if (creatium.screen === 'sm' && creatium.device !== 'tablet') creatium.device_fix = true;
+                if (creatium.screen === 'md' && creatium.device !== 'other') creatium.device_fix = true;
+                if (creatium.screen === 'lg' && creatium.device !== 'other') creatium.device_fix = true;
+                if (creatium.device_fix) document.write('<script src="' + creatium.async.js_adaptive_sections + '"></scr'+'ipt>');                    
+            }
+        </script><div class="node section-clear section font-text-opensans font-header-ttnormsmedium css1" data-common="ul1zqmhn0vgs5dxahhc"><div class="padding_top"></div><div class="container"><div class="cont"><div class="node widget-grid widget css2"><div class="grid valign-middle paddings-20px xs-wrap"><div class="gridwrap"><div class="col" style="width: 222px;"><div class="cont"><div class="node widget-imagedtext widget css2"><div class="tbl middle xs-force-center"><div class="td icon" style="width: 31px;"><div class="wrap"><img class="" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAB9JREFUOE9jZKAQMFKon2HUAIbRMGAYDQNQPhr4vAAAJpgAEX/anFwAAAAASUVORK5CYII=" style="width: 31px; height: 31px;" data-lazy-image="https://i.1.creatium.io/d4/6d/3a/54c417ad41304d3421adb50e4882064a44/%D0%B0%D0%B2%D0%B0%D1%82%D0%B0%D1%80%20youtube.png#%7B%22size%22:%5B800,800%5D,%22quality%22:8%7D" data-lazy-image_resize="true" data-lazy-image_detect="css-width-height"></div></div><div class="td text"><div style="padding-left: 10px;"><div class="cont"></div><p class="textable css3" style="margin-top: 0px;">Компания</p><div class="cont"></div></div></div></div></div></div></div><div class="col" style="width: 100%;"><div class="cont"><div class="node widget-menu widget css2"><div class="w-menu-grid right xs-center"><div class="w-menu-grid__cell" style="padding-left: 8px; padding-right: 8px;"><div class="cont cell"><div class="node widget-menu-button cr-menu-button widget css2"><div class="button-container center"><div class="button-wrapper"><a class="btn btn-legacy hvr-fade font-text css4" data-action="link" data-highlight="true" data-track-active="false" href="/" target="_self"><div class="pad-left" style="width: 8px;"></div><div class="btn-content"><span class="text">О нас</span></div><div class="pad-right" style="width: 8px;"></div></a></div></div></div></div></div><div class="w-menu-grid__cell" style="padding-left: 8px; padding-right: 8px;"><div class="cont cell"><div class="node widget-menu-button cr-menu-button widget css2"><div class="button-container center"><div class="button-wrapper"><a class="btn btn-legacy hvr-fade font-text css4" data-action="link" data-highlight="true" data-track-active="false" href="/" target="_self"><div class="pad-left" style="width: 8px;"></div><div class="btn-content"><span class="text">Галерея</span></div><div class="pad-right" style="width: 8px;"></div></a></div></div></div></div></div><div class="w-menu-grid__cell" style="padding-left: 8px; padding-right: 8px;"><div class="cont cell"><div class="node widget-menu-button cr-menu-button widget css2"><div class="button-container center"><div class="button-wrapper"><a class="btn btn-legacy hvr-fade font-text css4" data-action="link" data-highlight="true" data-track-active="false" href="/" target="_self"><div class="pad-left" style="width: 8px;"></div><div class="btn-content"><span class="text">Товары</span></div><div class="pad-right" style="width: 8px;"></div></a></div></div></div></div></div><div class="w-menu-grid__cell" style="padding-left: 8px; padding-right: 8px;"><div class="cont cell"><div class="node widget-menu-button cr-menu-button widget css2"><div class="button-container center"><div class="button-wrapper"><a class="btn btn-legacy hvr-fade font-text css4" data-action="link" data-highlight="true" data-track-active="false" href="/" target="_self"><div class="pad-left" style="width: 8px;"></div><div class="btn-content"><span class="text">Отзывы</span></div><div class="pad-right" style="width: 8px;"></div></a></div></div></div></div></div><div class="w-menu-grid__cell" style="padding-left: 8px; padding-right: 8px;"><div class="cont cell"><div class="node widget-menu-button cr-menu-button widget css2"><div class="button-container center"><div class="button-wrapper"><a class="btn btn-legacy hvr-fade font-text css4" data-action="link" data-highlight="true" data-track-active="false" href="/" target="_self"><div class="pad-left" style="width: 8px;"></div><div class="btn-content"><span class="text">Контакты</span></div><div class="pad-right" style="width: 8px;"></div></a></div></div></div></div></div><div class="w-menu-grid__cell" style="padding-left: 8px; padding-right: 8px;"><div class="cont cell"><div class="node widget-menu-button cr-menu-button widget css2"><div class="button-container center"><div class="button-wrapper"><button class="btn btn-legacy font-text css5" data-action="modal" data-modal="modal"><div class="pad-left" style="width: 27px;"></div><div class="btn-content"><span class="text">Обратный звонок</span></div><div class="pad-right" style="width: 27px;"></div></button></div></div><div class="modal nocolors css6" data-name="modal" data-type="modal" data-duration="300" data-id=""><div data-uid="ul1zqmi32sam9ilf4vzj_0"></div></div></div></div></div></div></div></div></div></div></div></div></div></div><div class="padding_bottom"></div></div><div class="node section-clear section css14"><div class="padding_top"></div><div class="wrapper1"><div class="wrapper2"></div></div><div class="container"><div class="cont"><div class="node widget-text cr-text widget css2"><h2 class="textable css15">Заголовок секции</h2></div><div class="node widget-text cr-text widget css16"><p class="textable css17">Подзаголовок секции с кратким описанием того, что внутри секции.</p></div></div></div><div class="padding_bottom"></div></div><div class="node section section-helper css18"></div>
+<!-- CREATIUM FOOTER -->
+    <div id="powered-by" style="text-align: center; padding: 15px;">
+        Работает на <a href="https://creatium.io">Creatium</a>    </div>
+
+<!-- CORE -->
+<script type="text/javascript" 
+                            src="/assets/4.1/vendors-sync.js?v=1649864402"></script>
+<!-- DEFER -->
+            <script>
+            creatium._async = {"modals":{"ul1zqmi32sam9ilf4vzj_0":"<div class=\"modal-back\" style=\"background-color: rgba(0, 0, 0, 0.5);\"><\/div><div class=\"modal-dialog\"><div class=\"metahtml css7\"><div cr-modal-root=\"\" class=\"modal1-root\">\n  <div class=\"modal1-panel\">\n    <button cr-modal-close=\"\" class=\"modal1-close\">\n    \t<span class=\"modal1-close-v\"><\/span>\n      <span class=\"modal1-close-h\"><\/span>\n    <\/button>\n    <div class=\"cont\"><div class=\"node widget-text cr-text widget css2\"><h3 class=\"textable css8\"><strong>Оставьте заявку<\/strong><\/h3><\/div><div class=\"node widget-text cr-text widget css2\"><p class=\"textable css9\">И мы с вами свяжемся<span>&nbsp;<\/span><\/p><\/div><\/div>\n    <div class=\"modal1-divider\"><\/div>\n    <div class=\"cont\"><div class=\"node widget-form2 cr-form widget css2\" data-form=\"{&quot;action&quot;:&quot;order&quot;,&quot;name&quot;:&quot;Виджет \\&quot;Форма\\&quot;&quot;,&quot;after&quot;:&quot;msg&quot;,&quot;msg&quot;:&quot;Спасибо!\\nВаша заявка отправлена.\\nВ ближайшее время мы с Вами свяжемся!&quot;,&quot;url&quot;:&quot;\/&quot;,&quot;urlauto&quot;:true,&quot;urlclean&quot;:true,&quot;addhtml&quot;:&quot;<!-- Этот код будет вставлен перед закрывающим тегом BODY -->&quot;,&quot;js&quot;:&quot;alert(\\&quot;Этот код выполняется после успешного отправления заявки.\\&quot;);&quot;,&quot;sequence&quot;:&quot;stepwise&quot;}\" data-isquiz=\"false\"><div><div class=\"metahtml css10\"><div class=\"form1-cover\">\n\t<div cr-form-container=\"\" colorside=\"cover_bgcolored?cover_bgcolor.colorside():_colorside\"><div class=\"cont\"><div class=\"node widget-field cr-field widget css11\"><div class=\"metahtml css12\" data-vals=\"{&quot;name&quot;:&quot;HTML-компонент&quot;,&quot;html&quot;:&quot;&quot;,&quot;css&quot;:&quot;&quot;,&quot;meta_js&quot;:&quot;&quot;,&quot;meta_js_lazy&quot;:true,&quot;meta_js_state&quot;:&quot;return {\\n  initialState: {},\\n  eventListeners: {},\\n  reset: function () {},\\n};&quot;,&quot;encapsulation&quot;:true,&quot;embeds&quot;:[],&quot;meta_cdn&quot;:[],&quot;meta_cdn_sequentially&quot;:false,&quot;tabs&quot;:[{&quot;id&quot;:&quot;main&quot;,&quot;name&quot;:&quot;Главные&quot;}],&quot;variables&quot;:[],&quot;type&quot;:&quot;name&quot;,&quot;text&quot;:&quot;Имя&quot;,&quot;hidename&quot;:false,&quot;list&quot;:[{&quot;text&quot;:&quot;Гамбургер&quot;,&quot;image&quot;:{&quot;datamix&quot;:{&quot;img&quot;:&quot;4.1&quot;},&quot;quality&quot;:8,&quot;source&quot;:&quot;upload&quot;,&quot;resize&quot;:true,&quot;legacy_color&quot;:[0,1,0.5,1],&quot;legacy_pack&quot;:&quot;users&quot;,&quot;blur&quot;:{&quot;enable&quot;:true,&quot;size&quot;:16},&quot;source_id&quot;:&quot;&quot;,&quot;variable_id&quot;:&quot;&quot;,&quot;file&quot;:&quot;\/\/u6.platformalp.ru\/c16a5320fa475530d9583c34fd356ef5\/85600fbdcfcd98c68092c8ee78fef443.jpg&quot;,&quot;size&quot;:[600,600]},&quot;value&quot;:0,&quot;name&quot;:&quot;Вариант 1&quot;},{&quot;text&quot;:&quot;Чай&quot;,&quot;image&quot;:{&quot;datamix&quot;:{&quot;img&quot;:&quot;4.1&quot;},&quot;quality&quot;:8,&quot;source&quot;:&quot;upload&quot;,&quot;resize&quot;:true,&quot;legacy_color&quot;:[0,1,0.5,1],&quot;legacy_pack&quot;:&quot;users&quot;,&quot;blur&quot;:{&quot;enable&quot;:true,&quot;size&quot;:16},&quot;source_id&quot;:&quot;&quot;,&quot;variable_id&quot;:&quot;&quot;,&quot;file&quot;:&quot;\/\/u6.platformalp.ru\/c16a5320fa475530d9583c34fd356ef5\/d07611e14f2f6512eb82382ddb5812dd.jpg&quot;,&quot;size&quot;:[600,600]},&quot;value&quot;:0,&quot;name&quot;:&quot;Вариант 2&quot;},{&quot;text&quot;:&quot;Мороженное&quot;,&quot;image&quot;:{&quot;datamix&quot;:{&quot;img&quot;:&quot;4.1&quot;},&quot;quality&quot;:8,&quot;source&quot;:&quot;upload&quot;,&quot;resize&quot;:true,&quot;legacy_color&quot;:[0,1,0.5,1],&quot;legacy_pack&quot;:&quot;users&quot;,&quot;blur&quot;:{&quot;enable&quot;:true,&quot;size&quot;:16},&quot;source_id&quot;:&quot;&quot;,&quot;variable_id&quot;:&quot;&quot;,&quot;file&quot;:&quot;\/\/u6.platformalp.ru\/c16a5320fa475530d9583c34fd356ef5\/ca0be5f5cd84b6891c5a611b252bc904.jpg&quot;,&quot;size&quot;:[600,600]},&quot;value&quot;:0}],&quot;visual_width&quot;:30,&quot;visual_height&quot;:100,&quot;required&quot;:false,&quot;id&quot;:&quot;&quot;,&quot;min&quot;:&quot;0&quot;,&quot;max&quot;:&quot;100&quot;,&quot;step&quot;:&quot;1&quot;,&quot;align&quot;:&quot;sides&quot;,&quot;fontsize&quot;:120,&quot;typing&quot;:&quot;string&quot;,&quot;format&quot;:&quot;%result% руб.&quot;,&quot;file_text&quot;:&quot;Прикрепить файл...&quot;,&quot;formula&quot;:&quot;&quot;,&quot;condition&quot;:&quot;&quot;,&quot;template&quot;:&quot;&quot;,&quot;variable&quot;:&quot;&quot;,&quot;valueOn&quot;:&quot;1&quot;,&quot;valueOff&quot;:&quot;0&quot;,&quot;variable2&quot;:&quot;&quot;,&quot;prefill_enable&quot;:false,&quot;prefill&quot;:{&quot;datamix&quot;:{&quot;ast&quot;:&quot;4.1&quot;},&quot;children&quot;:[]},&quot;privacy_button&quot;:&quot;Политика конфиденциальности&quot;,&quot;privacy_checkbox&quot;:&quot;Даю согласие на <обработку персональных данных>&quot;,&quot;privacy_text&quot;:&quot;Нажимая кнопку, вы даете согласие на <обработку персональных данных>&quot;,&quot;privacy_source&quot;:&quot;\/privacy&quot;}\"><div cr-field=\"name\" class=\"is-text\">\n  <div class=\"name\">\n    Имя \n  <\/div>\n  <div class=\"input\">\n    <input type=\"text\" il-action=\"listen\" autocomplete=\"name\" class=\"form-control\" value=\"\">\n  <\/div>\n  <div cr-field-addon=\"\"><div class=\"metahtml\"><\/div><\/div>\n<\/div><\/div><\/div><div class=\"node widget-field cr-field widget css11\"><div class=\"metahtml css12\" data-vals=\"{&quot;name&quot;:&quot;HTML-компонент&quot;,&quot;html&quot;:&quot;&quot;,&quot;css&quot;:&quot;&quot;,&quot;meta_js&quot;:&quot;&quot;,&quot;meta_js_lazy&quot;:true,&quot;meta_js_state&quot;:&quot;return {\\n  initialState: {},\\n  eventListeners: {},\\n  reset: function () {},\\n};&quot;,&quot;encapsulation&quot;:true,&quot;embeds&quot;:[],&quot;meta_cdn&quot;:[],&quot;meta_cdn_sequentially&quot;:false,&quot;tabs&quot;:[{&quot;id&quot;:&quot;main&quot;,&quot;name&quot;:&quot;Главные&quot;}],&quot;variables&quot;:[],&quot;type&quot;:&quot;phone&quot;,&quot;text&quot;:&quot;Номер телефона&quot;,&quot;hidename&quot;:false,&quot;list&quot;:[{&quot;text&quot;:&quot;Гамбургер&quot;,&quot;image&quot;:{&quot;datamix&quot;:{&quot;img&quot;:&quot;4.1&quot;},&quot;quality&quot;:8,&quot;source&quot;:&quot;upload&quot;,&quot;resize&quot;:true,&quot;legacy_color&quot;:[0,1,0.5,1],&quot;legacy_pack&quot;:&quot;users&quot;,&quot;blur&quot;:{&quot;enable&quot;:true,&quot;size&quot;:16},&quot;source_id&quot;:&quot;&quot;,&quot;variable_id&quot;:&quot;&quot;,&quot;file&quot;:&quot;\/\/u6.platformalp.ru\/c16a5320fa475530d9583c34fd356ef5\/85600fbdcfcd98c68092c8ee78fef443.jpg&quot;,&quot;size&quot;:[600,600]},&quot;value&quot;:0,&quot;name&quot;:&quot;Вариант 1&quot;},{&quot;text&quot;:&quot;Чай&quot;,&quot;image&quot;:{&quot;datamix&quot;:{&quot;img&quot;:&quot;4.1&quot;},&quot;quality&quot;:8,&quot;source&quot;:&quot;upload&quot;,&quot;resize&quot;:true,&quot;legacy_color&quot;:[0,1,0.5,1],&quot;legacy_pack&quot;:&quot;users&quot;,&quot;blur&quot;:{&quot;enable&quot;:true,&quot;size&quot;:16},&quot;source_id&quot;:&quot;&quot;,&quot;variable_id&quot;:&quot;&quot;,&quot;file&quot;:&quot;\/\/u6.platformalp.ru\/c16a5320fa475530d9583c34fd356ef5\/d07611e14f2f6512eb82382ddb5812dd.jpg&quot;,&quot;size&quot;:[600,600]},&quot;value&quot;:0,&quot;name&quot;:&quot;Вариант 2&quot;},{&quot;text&quot;:&quot;Мороженное&quot;,&quot;image&quot;:{&quot;datamix&quot;:{&quot;img&quot;:&quot;4.1&quot;},&quot;quality&quot;:8,&quot;source&quot;:&quot;upload&quot;,&quot;resize&quot;:true,&quot;legacy_color&quot;:[0,1,0.5,1],&quot;legacy_pack&quot;:&quot;users&quot;,&quot;blur&quot;:{&quot;enable&quot;:true,&quot;size&quot;:16},&quot;source_id&quot;:&quot;&quot;,&quot;variable_id&quot;:&quot;&quot;,&quot;file&quot;:&quot;\/\/u6.platformalp.ru\/c16a5320fa475530d9583c34fd356ef5\/ca0be5f5cd84b6891c5a611b252bc904.jpg&quot;,&quot;size&quot;:[600,600]},&quot;value&quot;:0}],&quot;visual_width&quot;:30,&quot;visual_height&quot;:100,&quot;required&quot;:false,&quot;id&quot;:&quot;&quot;,&quot;min&quot;:&quot;0&quot;,&quot;max&quot;:&quot;100&quot;,&quot;step&quot;:&quot;1&quot;,&quot;align&quot;:&quot;sides&quot;,&quot;fontsize&quot;:120,&quot;typing&quot;:&quot;string&quot;,&quot;format&quot;:&quot;%result% руб.&quot;,&quot;file_text&quot;:&quot;Прикрепить файл...&quot;,&quot;formula&quot;:&quot;&quot;,&quot;condition&quot;:&quot;&quot;,&quot;template&quot;:&quot;&quot;,&quot;variable&quot;:&quot;&quot;,&quot;valueOn&quot;:&quot;1&quot;,&quot;valueOff&quot;:&quot;0&quot;,&quot;variable2&quot;:&quot;&quot;,&quot;prefill_enable&quot;:false,&quot;prefill&quot;:{&quot;datamix&quot;:{&quot;ast&quot;:&quot;4.1&quot;},&quot;children&quot;:[]},&quot;privacy_button&quot;:&quot;Политика конфиденциальности&quot;,&quot;privacy_checkbox&quot;:&quot;Даю согласие на <обработку персональных данных>&quot;,&quot;privacy_text&quot;:&quot;Нажимая кнопку, вы даете согласие на <обработку персональных данных>&quot;,&quot;privacy_source&quot;:&quot;\/privacy&quot;}\"><div cr-field=\"phone\" class=\"is-text\">\n  <div class=\"name\">\n    Номер телефона \n  <\/div>\n  <div class=\"input\">\n    <input type=\"text\" il-action=\"listen\" autocomplete=\"tel\" class=\"form-control\" value=\"\">\n  <\/div>\n  <div cr-field-addon=\"\"><div class=\"metahtml\"><\/div><\/div>\n<\/div><\/div><\/div><div class=\"node widget-button widget css11\"><div class=\"button-container full\"><div class=\"button-wrapper\"><button class=\"btn btn-legacy font-text css13\" data-action=\"send\"><div class=\"pad-left\" style=\"width: 28px;\"><\/div><div class=\"btn-content\"><span class=\"text\">Отправить заявку<\/span><\/div><div class=\"pad-right\" style=\"width: 28px;\"><\/div><\/button><\/div><\/div><\/div><\/div><\/div>\n<\/div><\/div><\/div><\/div><\/div>\n  <\/div>\n<\/div><\/div><\/div>"},"cuts":[]};
+        </script>
+    
+<!-- PLUGINS -->
+</div></body>
+</html>
